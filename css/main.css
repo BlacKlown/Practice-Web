@@ -87,7 +87,10 @@ p{
 }
 
 .container{
-	width: 1024px;
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1152px;
 	padding: 0 16px;
 	margin: 0 auto;
 }
@@ -228,13 +231,12 @@ p{
 }
 #topper-bg{
 	height: auto;
-	width: 100%;
+	width: 120%;
 	position: absolute;
-	bottom: 60px;
-	left: 10px;
+	bottom: -130px;
+	left: -130px;
 	z-index: -1;
 	transform: rotate(40deg);
-	transition: transform 1s;
 }
 #topper-img{
 	height: 490px;
@@ -296,9 +298,8 @@ p{
 #images{
 	height: 1124px;
 	margin-top: -100px;
-	background-image: url(../images/iMac.webp);
-	background-repeat: no-repeat;
-	background-position: 80%;
+	overflow-x: hidden;
+	overflow-y: visible;
 }
 #images-left{
 	float: left;
@@ -317,7 +318,11 @@ p{
 #images-left>div>div:first-child{
 	margin-right: 46px;
 }
-
+#images-bg{
+	float: right;
+	position: absolute;
+	z-index: -1;
+}
 
 #categories{
 	position: relative;
@@ -326,14 +331,21 @@ p{
 	text-align: center;
 	overflow: hidden;
 }
+#categories .container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
 #cate-right{
-	float: right;
 	width: 550px;
+	height: auto;
+	margin-bottom: 90px;
 }
 #cate-list{
 	position: absolute;
-	top: 0;
-	right: 53%;
+	top: -20%;
+	right: 55%;
 	display: flex;
 	width: 860px;
 	justify-content: space-between;
@@ -374,9 +386,9 @@ p{
 }
 #change-bg{
 	position: absolute;
-	top: -15%;
-	right: 16.2%;
 	z-index: -1;
+  top: -10%;
+  left: 50%;
 	width: 1280px;
 	height: 700px;
 	border-radius: 60px;
@@ -385,8 +397,7 @@ p{
 		rgba(255,244,220,.48) 30%,
 		rgba(255,251,200,0) 45%,
 		rgba(255,251,200,0));
-	background-size: 100% 100%;
-	transform: skewY(-17deg);
+	transform: translateX(-50%) skewY(-17deg);
 }
 #change-left{
 	float: left;
@@ -413,7 +424,6 @@ p{
 }
 #change-right{
 	float: right;
-	margin-right: 58px;
 }
 .player-box{
 	margin-bottom: 50px;
@@ -493,40 +503,57 @@ p{
 }
 
 
-
-#language{
-	height: 240px;
-	padding-bottom: 96px;
-	text-align: center;
-}
-#flags{
-	margin: 86px auto 0;
-	display: flex;
-	width: 260px;
-	justify-content: space-between;
-}
-#flags img{
-	width: 74px;
-	height: auto;
-	border-radius: 8px;
-	box-shadow: 0 4px 8px rgba(0,0,0,0.1) 
-}
-#flags p{
-	font-size: 12px;
-}
-
-
 #feedback{
+	position: relative;
 	height: 403px;
 	margin-bottom: 128px;
 	text-align: center;
 }
-#feedback .slider{
+.swiper-container1{
 	margin: 0 auto;
 	width: 1120px;
 	height: 339px;
 }
-
+.head-pic{
+	width: 96px;
+	height: 96px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	margin: 18px auto 0;
+	background-image: url(../images/incognito.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	transition: border .5s;
+}
+.head-pic img{
+	margin-top: 86px;
+}
+.feedback-text{
+	height: 166px;
+	width: 920px;
+	padding-top: 80px;
+	margin: 0 auto;
+	background-color: #fff;
+	background-clip: content-box;
+	font-size: 20px;
+}
+.feedback-text b{
+	display: block;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.feedback-progress{
+	position: absolute;
+	top: 74px;
+	left: 50%;
+}
+.feedback-progress svg{
+	position: relative;
+	left: -50%;
+}
 
 #reviews{
 	height: 386px;
@@ -555,12 +582,15 @@ p{
 	opacity: 1;
 	border-bottom-color: #000; 
 }
-#reviews p{
+.swiper-wrapper2{
+	height: 165px;
+}
+.swiper-wrapper2 p{
 	width: 920px;
 	margin: 38px auto 0;
 	font-size: 20px;
 }
-#reviews p.name{
+.swiper-wrapper2 .name{
 	margin-top: 32px;
 	color: #000;
 	font-size: 16px;
@@ -576,7 +606,7 @@ p{
 #download-bg{
 	position: absolute;
 	z-index: -1;
-	right: 20%;
+	right: 16px;
 	width: 848px;
 	height: 100%;
 	border-radius: 8px;
@@ -626,7 +656,7 @@ p{
 	text-align: center;
 }
 #info ul{
-	width: 1120px;
+	box-sizing: border-box;
 	border: 2px solid rgba(0,0,0,0.04);
 	border-radius: 8px;
 }

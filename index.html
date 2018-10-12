@@ -1,400 +1,469 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
-	<head>
-		<meta charset="utf-8">
-		<title>Wallpaper Wizard 2: Desktop Wallpaper for Your Mac</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-		<script src="js/main.js"></script>
-		<style>
-		</style>
-	</head>
-	<body>
-    	<header id="header">
-    		<div class="container">
-    			<a href="javascript:;" id="nav-logo">
-    				<img src="images/logo.svg" alt="">
-    				<img src="images/logo-text.svg" alt="">
-    			</a>
-    			<ul id="nav-links">
-    				<li>
-    					<a href="javascript:;">
-    						<span id="nav-store">
-    							<span></span>
-    							<span></span>
-    						</span>
-    						<span class="nav-text">Store</span>
-    					</a>
-    				</li>
-    				<li>
-    					<button>
-    						<span id="nav-menu">
-    							<span></span>
-    							<span></span>
-    							<span></span>
-    						</span>
-    						<span class="nav-text">Menu</span>
-    					</button>
-    				</li>
-    			</ul>
-    		</div>
-			<div id="nav-dropdown"></div>
-    	</header>
-    	<div id="main">
-    		<section id="topper">
-				<img id="topper-bg" src="images/wallpaper-wizard.svg" alt="">
-				<div id="topper-shadow"></div>
-				<div class="container">
-					<img id="topper-img" src="images/wallpaperwizard@4x.png" alt="">
-					<div id="topper-right">
-						<h1>Wallpaper Wizard 2</h1>
-						<h2>Wow-worthy backgrounds for Mac</h2>
-						<p>Choose from hundreds of beautiful desktop backgrounds and let them change on your screen every week, day, or hour.</p>
-						<button>Free Download</button>
-						<button>Buy Now</button>
-					</div>
-				</div>
-				<div id="topper-reviews">
-					<a href="javascript:;"><img src="images/thenextweb-black.svg" alt=""></a>
-					<a href="javascript:;"><img src="images/appleworldtoday-black.svg" alt=""></a>
-					<a href="javascript:;"><img src="images/appstorm-black.svg" alt=""></a>
-				</div>
-    		</section>
-    		<div id="wallwiz">
-    			<section id="images">
-    				<div class="container">
-    					<div id="images-left">
-    						<h3>Desktop images in HD quality and endless quantity</h3>
-    						<p>There’s nothing more disappointing than a blurry background on a crisp Retina display. That’s why Wallpaper Wizard 2 includes only HD pictures. With some 25,000 images and new collections monthly, you won’t run out of HD backgrounds even if you set a fresh one daily.</p>
-    						<div>
-    							<div>
-    								<h4>4K wallpapers</h4>
-    								<p>Retina-ready</p>
-    							</div>
-    							<div>
-    								<h4>25,000 images</h4>
-    								<p>updated monthly</p>
-    							</div>
-    						</div>
-    					</div>
-    				</div>
-    			</section>
-    			<section id="categories">
-    				<div class="container">
-						<div id="cate-right">
-							<h3>There’s a wallpaper of anything, and it’s easy to find</h3>
-							<p>Whether you like dramatic sea views, subtle textures, or Instagram-y still life, Wallpaper Wizard has got your background. You can spare yourself the Google search — just open the app and pick a collection that catches your eye, or find the perfect eye candy by categories and keywords.</p>
-						</div>
-						<div id="cate-list">
-							<div class="list">
-								<div class="cell">
-									<img src="images/category1.png" alt="">
-									<div style="background-color: rgb(28,32,15);box-shadow: 0 0 10px 0 rgba(28,32,15, 0.5)">Mountain lakes</div>
-								</div>
-								<div class="cell">
-									<img src="images/category2.png" alt="">
-									<div style="background-color: rgb(134,90,70);box-shadow: 0 0 10px 0 rgba(134,90,70, 0.5)">Desert sand</div>
-								</div>
-							</div>
-							<div class="list">
-								<div class="cell">
-									<img src="images/category3.png" alt="">
-									<div style="background-color: rgb(174,133,102);box-shadow: 0 0 10px 0 rgba(174,133,102, 0.5)">Berlin library</div>
-								</div>
-								<div class="cell">
-									<img src="images/category4.png" alt="">
-									<div style="background-color: rgb(60,67,118);box-shadow: 0 0 10px 0 rgba(60,67,118, 0.5)">Forest road</div>
-								</div>
-								<div class="cell">
-									<img src="images/category5.png" alt="">
-									<div style="background-color: rgb(108,135,129);box-shadow: 0 0 10px 0 rgba(108,135,129, 0.5)">Beach & ocean</div>
-								</div>
-							</div>
-							<div class="list">
-								<div class="cell">
-									<img src="images/category6.png" alt="">
-									<div style="background-color: rgb(65,52,86);box-shadow: 0 0 10px 0 rgba(65,52,86, 0.5)">Old boat</div>
-								</div>
-								<div class="cell">
-									<img src="images/category7.png" alt="">
-									<div style="background-color: rgb(180,66,69);box-shadow: 0 0 10px 0 rgba(180,66,69, 0.5)">Red flowers</div>
-								</div>
-								<div class="cell">
-									<img src="images/category8.png" alt="">
-									<div style="background-color: rgb(42,45,59);box-shadow: 0 0 10px 0 rgba(42,45,59, 0.5)">Long exposure</div>
-								</div>
-							</div>
-							<div class="list">
-								<div class="cell">
-									<img src="images/category9.png" alt="">
-									<div style="background-color: rgb(20,20,20);box-shadow: 0 0 10px 0 rgba(20,20,20, 0.5)">The Moon</div>
-								</div>
-								<div class="cell">
-									<img src="images/category10.png" alt="">
-									<div style="background-color: rgb(139,108,71);box-shadow: 0 0 10px 0 rgba(139,108,71, 0.5)">Colors</div>
-								</div>
-							</div>
-						</div>
-					</div>
-    			</section>
-    			<section id="change">
-					<div id="change-bg"></div>
-					<div class="container">
-						<div id="change-left">
-							<h3>An all-new desktop as often as you please</h3>
-							<p>See a new desktop wallpaper whenever you look at your Mac without even having to open the app. Wallpaper Wizard is like your wallpaper playlist: just add all pictures you like to Roll, choose how often you’d like a new one, and enjoy the non-stop flow of beautiful imagery.</p>
-							<div id="iMac">
-								<div><img src="images/wlp1.jpg" alt=""></div>
-							</div>
-						</div>
-						<div id="change-right">
-							<div class="player-box">
-								<div class="player-header clearfix">
-									<div class="player-left">
-										<div>
-											<i class="fa fa-play fa-fw"></i>
-										</div>
-										Now
-									</div>
-									<div class="player-right">
-										Next Wallpaper
-										<div>
-											<span>7</span>s
-										</div>
-									</div>
-								</div>
-								<div class="player-images">
-									<img src="images/wlp1.jpg" alt="">
-								</div>
-							</div>
-							<div class="player-box">
-								<div class="player-header clearfix">
-									<div class="player-left">
-										<div>
-											<i class="fa fa-random fa-fw"></i>
-										</div>
-										Up Next
-									</div>
-								</div>
-								<div class="player-images">
-									<img src="images/wlp2.jpg" alt="">
-									<img src="images/wlp3.jpg" alt="">
-									<img src="images/wlp6.jpg" alt="">
-									<img src="images/wlp7.jpg" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-    			</section>
-    			<section id="multiply">
-					<div class="container">
-						<div id="multiply-left"></div>
-						<div id="multiply-right">
-							<h3>Beauty for all your displays</h3>
-							<p>A 13-inch display on your MacBook Air or three 4K monitors connected to an iMac? No matter how many displays you’ve got, Wallpaper Wizard will give them a new background. Different for each or the same for all, and always a feast for the eyes.</p>
-							<button>One Image for All</button>
-							<button style="color: #398b7e; background-color: transparent; margin-left: 5px;">Different for Each</button>
-						</div>
-					</div>
-    			</section>
-    		</div>
-    		<section id="language" class="container">
-				<h3>Wallpaper Wizard 2 speaks:</h3>
-				<div id="flags">
-					<div>
-						<img src="images/en.svg" alt="">
-						<p>English</p>
-					</div>
-					<div>
-						<img src="images/de.svg" alt="">
-						<p>Deutsch</p>
-					</div>
-				</div>
-    		</section>
-    		<section id="feedback">
-				<h3>Don't take our word for it</h3>
-				<div class="slider">
-					<div></div>
-				</div>
-    		</section>
-    		<section id="reviews">
-				<h3>Industry experts talk about Wallpaper Wizard 2</h3>
-				<div id="reviews-center">
-					<a class="active" href="javascript:;"><img src="images/thenextweb-black.svg" alt=""></a>
-					<a href="javascript:;"><img src="images/appleworldtoday-black.svg" alt=""></a>
-					<a href="javascript:;"><img src="images/appstorm-black.svg" alt=""></a>
-				</div>
-				<p>It has a solid set of features, a great interface and a truly astounding collection of generally awesome wallpapers.</p>
-				<p class="name">Aayush Arya</p>
-    		</section>
-    		<section id="download">
-				<div id="download-bg"></div>
-				<div class="container">
-					<img id="download-img" src="images/wallpaperwizard@4x.png" alt="">
-					<div id="download-right">
-						<h3>Wallpaper Wizard 2</h3>
-						<h4>Add a "wow" to your Mac</h4>
-						<p>Feature a roll of your favorite backgrounds from a massive, 25,000-large, collection of stunning 4K images on all screens.</p>
-						<button>Free Download</button>
-						<button>Buy Now</button>
-					</div>
-				</div>
-    		</section>
-    		<section id="info">
-    			<div class="container">
-					<ul class="clearfix">
-						<li>
-							<i class="fa fa-microchip fa-rotate-90 fa-lg"></i>
-							<h5>System Requirements:</h5>
-							<p>macOS 10.11 and higher, 200 MB</p>
-						</li>
-						<li>
-							<i class="fa fa-star-o fa-lg"></i>
-							<h5>Rating:</h5>
-							<p>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star-half-o"></i>
-								/ 4.5*
-							</p>
-						</li>
-						<li>
-							<i class="fa fa-tag fa-lg"></i>
-							<h5>Pricing:</h5>
-							<p>Starting at $9.95</p>
-						</li>
-						<li>
-							<i class="fa fa-info-circle fa-lg"></i>
-							<h5>Latest Version:</h5>
-							<p>2.1.6, 16 July 2018</p>
-						</li>
-					</ul>
-					<h5>*4.5 - rating for all versions, based on 135 user reviews.</h5>
-				</div>
-    		</section>
-    		<div class="line"></div>
-    		<section id="subscribe">
-				<h3>Subscribe to know first</h3>
-				<p>Our delivery owl will bring you our best deals and news about MacPaw apps.</p>
-				<input type="text" placeholder="Enter your email address..">
-				<button>Subscribe</button>
-    		</section>
-    		<div id="fixed-nav">fixed-nav</div>
-    	</div>
-    	<footer id="footer">
-    		<div id="footer-grid">
-				<div class="container">
-					<div>
-						<dl>
-							<dt>Products</dt>
-							<dd><a href="javascript:;">CleanMyMac 3</a></dd>
-							<dd><a href="javascript:;">Gemini 2</a></dd>
-							<dd><a href="javascript:;">Wallpaper Wizard 2</a></dd>
-							<dd><a href="javascript:;">CleanMyDrive 2</a></dd>
-							<dd><a href="javascript:;">Hider 2</a></dd>
-							<dd><a href="javascript:;">Encrypto</a></dd>
-							<dd><a href="javascript:;">CleanMyMac Classic</a></dd>
-							<dd><a href="javascript:;">CleanMyPC</a></dd>
-							<dd><a href="javascript:;">Listen</a></dd>
-							<dd><a href="javascript:;">Gemini Classic</a></dd>
-							<dd><a href="javascript:;">Setapp</a></dd>
-							<dd><a href="javascript:;">The Unarchiver</a></dd>
-						</dl>
-					</div>
-					<div>
-						<dl>
-							<dt>Popular</dt>
-							<dd><a href="javascript:;">Mac Running Slow</a></dd>
-							<dd><a href="javascript:;">Speed Up Mac</a></dd>
-							<dd><a href="javascript:;">Startup Disk Full</a></dd>
-							<dd><a href="javascript:;">Mac Cleaner</a></dd>
-							<dd><a href="javascript:;">Clear Cache on Mac</a></dd>
-							<dd><a href="javascript:;">Clean Other Storage</a></dd>
-							<dd><a href="javascript:;">Uninstall Apps on Mac</a></dd>
-							<dd><a href="javascript:;">Fix macOS Sierra Issues</a></dd>
-							<dd><a href="javascript:;">Clean Up Mac</a></dd>
-						</dl>
-					</div>
-					<div>
-						<dl>
-							<dt>Company</dt>
-							<dd><a href="javascript:;">About MacPaw</a></dd>
-							<dd><a href="javascript:;">CleanMyMac Reviews</a></dd>
-							<dd><a href="javascript:;">MacPaw How-Tos</a></dd>
-							<dd><a href="javascript:;">MacPaw Blog</a></dd>
-							<dd><a href="javascript:;">Affiliate Program</a></dd>
-							<dd><a href="javascript:;">Press Page</a></dd>
-							<dd><a href="javascript:;">We’re Hiring</a></dd>
-						</dl>
-					</div>
-					<div>
-						<dl>
-							<dt>Support</dt>
-							<dd><a href="javascript:;">Contact Support</a></dd>
-							<dd><a href="javascript:;">Knowledge Base</a></dd>
-							<dd><a href="javascript:;">License Management</a></dd>
-							<dd><a href="javascript:;">Products F.A.Q.</a></dd>
-							<dd><a href="javascript:;">CleanMyMac Coupons</a></dd>
-							<dd><a href="javascript:;">Activation Number</a></dd>
-							<dd><a href="javascript:;">Uninstall Apps</a></dd>
-							<dd><a href="javascript:;">Sitemap</a></dd>
-						</dl>
-					</div>
-					<div>
-						<dl>
-							<dt>Sales</dt>
-							<dd><a href="">Corporate Sales</a></dd>
-							<dd><a href="">Educational Discounts</a></dd>
-							<dd><a href="">Partnership Offers</a></dd>
-						</dl>
-						<dl>
-							<dt>Policy</dt>
-							<dd><a href="">Cookie Policy</a>
-							<dd><a href="">Privacy Policy</a>
-							<dd><a href="">Refund Policy</a>
-							<dd><a href="">User Agreement</a>	
-						</dl>
-					</div>
-					<div>
-						<dl>
-							<dt>Follow Us</dt>
-							<div id="icon-grid">
-								<div id="facebook"><i class="fa fa-facebook-official"></i></div>
-								<div id="google"><i class="fa fa-google-plus"></i></div>
-								<div id="instagram"><i class="fa fa-instagram fa-lg"></i></div>
-								<div id="twitter"><i class="fa fa-twitter fa-lg"></i></div>
-								<div id="youtube"><i class="fa fa-youtube-play fa-lg"></i></div>
-								<div id="linkedin"><i class="fa fa-linkedin-square fa-lg"></i></div>
-								<div id="dribbble"><i class="fa fa-dribbble fa-lg"></i></div>
-							</div>
-						</dl>
-						<dl>
-							<dt>Language</dt>
-							<div id="lang">
-								<div class="lang">
-									<img src="images/en.svg" alt="">
-									<span>English</span>
-									<i class="fa fa-chevron-down"></i>
-								</div>
-								<select>
-									<option value="English">English</option>
-								</select>
-							</div>
-						</dl>
-					</div>
-				</div>
-    		</div>
-    		<div id="legal-block">
-				<div class="container">
-					<a href="javascript:;"><img src="images/macpaw-green-icon.svg" alt=""></a>
-					<span>Copyright © 2018 MacPaw Inc. 5201 Great America Parkway, Suite 320, Santa Clara, CA 95054 tel: +1-(877)-5-MACPAW</span>
-					<strong>PROTECTED</strong>
-					<strong>DMCA</strong>
-				</div>
-    		</div>
-    	</footer>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Wallpaper Wizard 2: Desktop Wallpaper for Your Mac</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <style>
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <a href="javascript:;" id="nav-logo">
+          <img src="images/logo.svg" alt="">
+          <img src="images/logo-text.svg" alt="">
+        </a>
+        <ul id="nav-links">
+          <li>
+            <a href="javascript:;">
+              <div id="nav-store">
+                <span></span>
+                <span></span>
+              </div>
+              <span class="nav-text">Store</span>
+            </a>
+          </li>
+          <li>
+            <button>
+              <div id="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="nav-text">Menu</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="nav-dropdown"></div>
+    </header>
+    <div id="main">
+      <section id="topper">
+        <div class="container">
+          <img id="topper-bg" src="images/wallpaper-wizard.svg" alt="">
+          <div id="topper-shadow"></div>
+          <img id="topper-img" src="images/wallpaperwizard@4x.png" alt="">
+          <div id="topper-right">
+            <h1>Wallpaper Wizard 2</h1>
+            <h2>Wow-worthy backgrounds for Mac</h2>
+            <p>Choose from hundreds of beautiful desktop backgrounds and let them change on your screen every week, day, or hour.</p>
+            <button>Free Download</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div id="topper-reviews">
+          <a href="javascript:;"><img src="images/thenextweb-black.svg" alt=""></a>
+          <a href="javascript:;"><img src="images/appleworldtoday-black.svg" alt=""></a>
+          <a href="javascript:;"><img src="images/appstorm-black.svg" alt=""></a>
+        </div>
+      </section>
+      <div id="wallwiz">
+        <section id="images">
+          <div class="container">
+            <div id="images-left">
+              <h3>Desktop images in HD quality and endless quantity</h3>
+              <p>There’s nothing more disappointing than a blurry background on a crisp Retina display. That’s why Wallpaper Wizard 2 includes only HD pictures. With some 25,000 images and new collections monthly, you won’t run out of HD backgrounds even if you set a fresh one daily.</p>
+              <div>
+                <div>
+                  <h4>4K wallpapers</h4>
+                  <p>Retina-ready</p>
+                </div>
+                <div>
+                  <h4>25,000 images</h4>
+                  <p>updated monthly</p>
+                </div>
+              </div>
+            </div>
+            <div id="images-bg">
+              <img src="images/iMac.webp">
+            </div>
+          </div>
+        </section>
+        <section id="categories">
+          <div class="container">
+            <div id="cate-right">
+              <h3>There’s a wallpaper of anything, and it’s easy to find</h3>
+              <p>Whether you like dramatic sea views, subtle textures, or Instagram-y still life, Wallpaper Wizard has got your background. You can spare yourself the Google search — just open the app and pick a collection that catches your eye, or find the perfect eye candy by categories and keywords.</p>
+            </div>
+            <div id="cate-list">
+              <div class="list">
+                <div class="cell">
+                  <img src="images/category1.png" alt="">
+                  <div style="background-color: rgb(28,32,15);box-shadow: 0 0 10px 0 rgba(28,32,15, 0.5)">Mountain lakes</div>
+                </div>
+                <div class="cell">
+                  <img src="images/category2.png" alt="">
+                  <div style="background-color: rgb(134,90,70);box-shadow: 0 0 10px 0 rgba(134,90,70, 0.5)">Desert sand</div>
+                </div>
+              </div>
+              <div class="list">
+                <div class="cell">
+                  <img src="images/category3.png" alt="">
+                  <div style="background-color: rgb(174,133,102);box-shadow: 0 0 10px 0 rgba(174,133,102, 0.5)">Berlin library</div>
+                </div>
+                <div class="cell">
+                  <img src="images/category4.png" alt="">
+                  <div style="background-color: rgb(60,67,118);box-shadow: 0 0 10px 0 rgba(60,67,118, 0.5)">Forest road</div>
+                </div>
+                <div class="cell">
+                  <img src="images/category5.png" alt="">
+                  <div style="background-color: rgb(108,135,129);box-shadow: 0 0 10px 0 rgba(108,135,129, 0.5)">Beach & ocean</div>
+                </div>
+              </div>
+              <div class="list">
+                <div class="cell">
+                  <img src="images/category6.png" alt="">
+                  <div style="background-color: rgb(65,52,86);box-shadow: 0 0 10px 0 rgba(65,52,86, 0.5)">Old boat</div>
+                </div>
+                <div class="cell">
+                  <img src="images/category7.png" alt="">
+                  <div style="background-color: rgb(180,66,69);box-shadow: 0 0 10px 0 rgba(180,66,69, 0.5)">Red flowers</div>
+                </div>
+                <div class="cell">
+                  <img src="images/category8.png" alt="">
+                  <div style="background-color: rgb(42,45,59);box-shadow: 0 0 10px 0 rgba(42,45,59, 0.5)">Long exposure</div>
+                </div>
+              </div>
+              <div class="list">
+                <div class="cell">
+                  <img src="images/category9.png" alt="">
+                  <div style="background-color: rgb(20,20,20);box-shadow: 0 0 10px 0 rgba(20,20,20, 0.5)">The Moon</div>
+                </div>
+                <div class="cell">
+                  <img src="images/category10.png" alt="">
+                  <div style="background-color: rgb(139,108,71);box-shadow: 0 0 10px 0 rgba(139,108,71, 0.5)">Colors</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="change">
+          <!-- <div id="change-bg"></div> -->
+          <div class="container">
+            <div id="change-left">
+              <h3>An all-new desktop as often as you please</h3>
+              <p>See a new desktop wallpaper whenever you look at your Mac without even having to open the app. Wallpaper Wizard is like your wallpaper playlist: just add all pictures you like to Roll, choose how often you’d like a new one, and enjoy the non-stop flow of beautiful imagery.</p>
+              <div id="iMac">
+                <div><img src="images/wlp1.jpg" alt=""></div>
+              </div>
+            </div>
+            <div id="change-right">
+              <div class="player-box">
+                <div class="player-header clearfix">
+                  <div class="player-left">
+                    <div>
+                      <i class="fa fa-play fa-fw"></i>
+                    </div>
+                    Now
+                  </div>
+                  <div class="player-right">
+                    Next Wallpaper
+                    <div>
+                      <span>7</span>s
+                    </div>
+                  </div>
+                </div>
+                <div class="player-images">
+                  <img src="images/wlp1.jpg" alt="">
+                </div>
+              </div>
+              <div class="player-box">
+                <div class="player-header clearfix">
+                  <div class="player-left">
+                    <div>
+                      <i class="fa fa-random fa-fw"></i>
+                    </div>
+                    Up Next
+                  </div>
+                </div>
+                <div class="player-images">
+                  <img src="images/wlp2.jpg" alt="">
+                  <img src="images/wlp3.jpg" alt="">
+                  <img src="images/wlp6.jpg" alt="">
+                  <img src="images/wlp7.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="multiply">
+          <div class="container">
+            <div id="multiply-left"></div>
+            <div id="multiply-right">
+              <h3>Beauty for all your displays</h3>
+              <p>A 13-inch display on your MacBook Air or three 4K monitors connected to an iMac? No matter how many displays you’ve got, Wallpaper Wizard will give them a new background. Different for each or the same for all, and always a feast for the eyes.</p>
+              <button>One Image for All</button>
+              <button style="color: #398b7e; background-color: transparent; margin-left: 5px;">Different for Each</button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section id="feedback">
+        <h3>Don't take our word for it</h3>
+        <div class="swiper-container1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="head-pic">
+                <img src="images/appstore.svg">
+              </div>
+              <div class="feedback-text">
+                <p>Easy to use and beautiful photographs... I really like the way the pics look both on my 15” MacBook Pro and how they look just as good when I hook up to my 27” Apple Thunderbolt Display.</p>
+                <b>THS90</b>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="head-pic">
+                <img src="images/appstore.svg">
+              </div>
+              <div class="feedback-text">
+                <p>The photos are beautiful, it includes a fairly wide variety of HD photos and you can rotate them in various ways. I like the app and think it's well worth the $10 I paid.</p>
+                <b>RGM1956</b>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="head-pic">
+                <img src="images/appstore.svg">
+              </div>
+              <div class="feedback-text">
+                <p>An amazing app for people who care as much about aesthetics as I do... This app is amazing for anyone who likes having unique, amazingly aestetic backgrounds for their Macs... I continue to recommend it to all my friends.</p>
+                <b>Sonoharry54</b>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="head-pic">
+                <img src="images/appstore.svg">
+              </div>
+              <div class="feedback-text">
+                <p>I am really enjoying this app. I love change and that includes my desktop pictures. At first, I found just a few themes that I liked, but over the last two months, they have outdone themselves with new themes and images... Highly recommend this app.</p>
+                <b>LSJD6s3k</b>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="feedback-progress">
+          <svg xmlns="http://www.w3.org/2000/svg" width="116" height="112" viewBox="0 0 116 112">
+            <path id="review-progress" fill-opacity="0" stroke="#000" stroke-linecap="round" stroke-width="2" d="M78.817958,109.675203 C85.784889,106.786281 92.054739,102.555435 97.305087,97.3050865 C107.620058,86.9901154 114,72.7401154 114,57 C114,25.5197693 88.480231,0 57,0 C25.519769,0 0,25.5197693 0,57 C0,72.7401154 6.379942,86.9901154 16.694913,97.3050865 C21.945261,102.555435 28.215111,106.786281 35.182042,109.675203" transform="matrix(-1 0 0 1 115 1)" style="stroke-dasharray: 313.418, 313.418; stroke-dashoffset: 0;"></path>
+          </svg>
+        </div>
+      </section>
+      <section id="reviews">
+        <h3>Industry experts talk about Wallpaper Wizard 2</h3>
+        <div id="reviews-center">
+          <a class="active" href="javascript:;"><img src="images/thenextweb-black.svg" alt=""></a>
+          <a href="javascript:;"><img src="images/appleworldtoday-black.svg" alt=""></a>
+          <a href="javascript:;"><img src="images/appstorm-black.svg" alt=""></a>
+        </div>
+        <div class="swiper-container2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>It has a solid set of features, a great interface and a truly astounding collection of generally awesome wallpapers.</p>
+              <p class="name">Aayush Arya</p>
+            </div>
+            <div class="swiper-slide">
+              <p>It’s developed to give your Mac’s display changing, fresh looks from a curated collection of hand-picked HD photos. Wallpaper Wizard 2 makes it easy to find good-looking screen images from a huge (25,000) collection of handpicked wallpapers and backgrounds.</p>
+              <p class="name">Dennis Sellers</p>
+            </div>
+            <div class="swiper-slide">
+              <p>Wallpaper Wizard is a funky application for sure, and it turns managing your wallpaper collection (and finding new ones) into a really enjoyable task.</p>
+              <p class="name">Matt Reich</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="download">
+        <div class="container">
+          <div id="download-bg"></div>
+          <img id="download-img" src="images/wallpaperwizard@4x.png" alt="">
+          <div id="download-right">
+            <h3>Wallpaper Wizard 2</h3>
+            <h4>Add a "wow" to your Mac</h4>
+            <p>Feature a roll of your favorite backgrounds from a massive, 25,000-large, collection of stunning 4K images on all screens.</p>
+            <button>Free Download</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </section>
+      <section id="info">
+        <div class="container">
+        <ul class="clearfix">
+          <li>
+            <i class="fa fa-microchip fa-rotate-90 fa-lg"></i>
+            <h5>System Requirements:</h5>
+            <p>macOS 10.11 and higher, 200 MB</p>
+          </li>
+          <li>
+            <i class="fa fa-star-o fa-lg"></i>
+            <h5>Rating:</h5>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              / 4.5*
+            </p>
+          </li>
+          <li>
+            <i class="fa fa-tag fa-lg"></i>
+            <h5>Pricing:</h5>
+            <p>Starting at $9.95</p>
+          </li>
+          <li>
+            <i class="fa fa-info-circle fa-lg"></i>
+            <h5>Latest Version:</h5>
+            <p>2.1.6, 16 July 2018</p>
+          </li>
+        </ul>
+        <h5>*4.5 - rating for all versions, based on 135 user reviews.</h5>
+      </div>
+      </section>
+      <div class="line"></div>
+      <section id="subscribe">
+        <h3>Subscribe to know first</h3>
+        <p>Our delivery owl will bring you our best deals and news about MacPaw apps.</p>
+        <input type="text" placeholder="Enter your email address..">
+        <button>Subscribe</button>
+      </section>
+      <div id="fixed-nav">fixed-nav</div>
+    </div>
+    <footer id="footer">
+      <div id="footer-grid">
+        <div class="container">
+          <div>
+            <dl>
+              <dt>Products</dt>
+              <dd><a href="javascript:;">CleanMyMac 3</a></dd>
+              <dd><a href="javascript:;">Gemini 2</a></dd>
+              <dd><a href="javascript:;">Wallpaper Wizard 2</a></dd>
+              <dd><a href="javascript:;">CleanMyDrive 2</a></dd>
+              <dd><a href="javascript:;">Hider 2</a></dd>
+              <dd><a href="javascript:;">Encrypto</a></dd>
+              <dd><a href="javascript:;">CleanMyMac Classic</a></dd>
+              <dd><a href="javascript:;">CleanMyPC</a></dd>
+              <dd><a href="javascript:;">Listen</a></dd>
+              <dd><a href="javascript:;">Gemini Classic</a></dd>
+              <dd><a href="javascript:;">Setapp</a></dd>
+              <dd><a href="javascript:;">The Unarchiver</a></dd>
+            </dl>
+          </div>
+          <div>
+            <dl>
+              <dt>Popular</dt>
+              <dd><a href="javascript:;">Mac Running Slow</a></dd>
+              <dd><a href="javascript:;">Speed Up Mac</a></dd>
+              <dd><a href="javascript:;">Startup Disk Full</a></dd>
+              <dd><a href="javascript:;">Mac Cleaner</a></dd>
+              <dd><a href="javascript:;">Clear Cache on Mac</a></dd>
+              <dd><a href="javascript:;">Clean Other Storage</a></dd>
+              <dd><a href="javascript:;">Uninstall Apps on Mac</a></dd>
+              <dd><a href="javascript:;">Fix macOS Sierra Issues</a></dd>
+              <dd><a href="javascript:;">Clean Up Mac</a></dd>
+            </dl>
+          </div>
+          <div>
+            <dl>
+              <dt>Company</dt>
+              <dd><a href="javascript:;">About MacPaw</a></dd>
+              <dd><a href="javascript:;">CleanMyMac Reviews</a></dd>
+              <dd><a href="javascript:;">MacPaw How-Tos</a></dd>
+              <dd><a href="javascript:;">MacPaw Blog</a></dd>
+              <dd><a href="javascript:;">Affiliate Program</a></dd>
+              <dd><a href="javascript:;">Press Page</a></dd>
+              <dd><a href="javascript:;">We’re Hiring</a></dd>
+            </dl>
+          </div>
+          <div>
+            <dl>
+              <dt>Support</dt>
+              <dd><a href="javascript:;">Contact Support</a></dd>
+              <dd><a href="javascript:;">Knowledge Base</a></dd>
+              <dd><a href="javascript:;">License Management</a></dd>
+              <dd><a href="javascript:;">Products F.A.Q.</a></dd>
+              <dd><a href="javascript:;">CleanMyMac Coupons</a></dd>
+              <dd><a href="javascript:;">Activation Number</a></dd>
+              <dd><a href="javascript:;">Uninstall Apps</a></dd>
+              <dd><a href="javascript:;">Sitemap</a></dd>
+            </dl>
+          </div>
+          <div>
+            <dl>
+              <dt>Sales</dt>
+              <dd><a href="">Corporate Sales</a></dd>
+              <dd><a href="">Educational Discounts</a></dd>
+              <dd><a href="">Partnership Offers</a></dd>
+            </dl>
+            <dl>
+              <dt>Policy</dt>
+              <dd><a href="">Cookie Policy</a>
+              <dd><a href="">Privacy Policy</a>
+              <dd><a href="">Refund Policy</a>
+              <dd><a href="">User Agreement</a> 
+            </dl>
+          </div>
+          <div>
+            <dl>
+              <dt>Follow Us</dt>
+              <div id="icon-grid">
+                <div id="facebook"><i class="fa fa-facebook-official"></i></div>
+                <div id="google"><i class="fa fa-google-plus"></i></div>
+                <div id="instagram"><i class="fa fa-instagram fa-lg"></i></div>
+                <div id="twitter"><i class="fa fa-twitter fa-lg"></i></div>
+                <div id="youtube"><i class="fa fa-youtube-play fa-lg"></i></div>
+                <div id="linkedin"><i class="fa fa-linkedin-square fa-lg"></i></div>
+                <div id="dribbble"><i class="fa fa-dribbble fa-lg"></i></div>
+              </div>
+            </dl>
+            <dl>
+              <dt>Language</dt>
+              <div id="lang">
+                <div class="lang">
+                  <img src="images/en.svg" alt="">
+                  <span>English</span>
+                  <i class="fa fa-chevron-down"></i>
+                </div>
+                <select>
+                  <option value="English">English</option>
+                </select>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div id="legal-block">
+        <div class="container">
+          <a href="javascript:;"><img src="images/macpaw-green-icon.svg" alt=""></a>
+          <span>Copyright © 2018 MacPaw Inc. 5201 Great America Parkway, Suite 320, Santa Clara, CA 95054 tel: +1-(877)-5-MACPAW</span>
+          <strong>PROTECTED</strong>
+          <strong>DMCA</strong>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      var feedbackSwiper1 = new Swiper('.swiper-container1', {
+        autoplay: {
+          delay: 4000
+        },
+        loop: true,
+        effect : 'fade',
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }
+      });
+      var feedbackSwiper2 = new Swiper('.swiper-container2', {
+        autoplay: false,
+        loop: true,
+        effect : 'slide'
+      })
+    </script>
+  </body>
 </html>
