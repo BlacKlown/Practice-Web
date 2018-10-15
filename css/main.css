@@ -530,6 +530,7 @@ p{
 	text-align: center;
 }
 .swiper-container1{
+	position: relative;
 	margin: 0 auto;
 	width: 1120px;
 	height: 339px;
@@ -565,6 +566,10 @@ p{
 	font-size: 18px;
 	font-weight: 700;
 }
+.swiper-container1 .swiper-button-next{
+	/*right: 20px;*/
+}
+
 .feedback-progress{
 	position: absolute;
 	top: 74px;
