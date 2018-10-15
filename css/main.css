@@ -236,7 +236,8 @@ p{
 	bottom: -130px;
 	left: -130px;
 	z-index: -1;
-	transform: rotate(40deg);
+	transform: rotate(-220deg);
+	transition: transform 1s;
 }
 #topper-img{
 	height: 490px;
@@ -399,6 +400,11 @@ p{
 		rgba(255,251,200,0));
 	transform: translateX(-50%) skewY(-17deg);
 }
+@media screen and (max-width: 1300px) {  
+	#change-bg {
+		left: 44%;
+	}
+}
 #change-left{
 	float: left;
 	width: 510px;
@@ -408,6 +414,7 @@ p{
 }
 #iMac{
 	position: relative;
+	top: 0;
 	width: 462px;
 	height: 358px;
 	background-image: url(../images/mac.png);
@@ -415,7 +422,6 @@ p{
 }
 #iMac div{
 	position: relative;
-	z-index: 1;
 	top: 12px;
 	left: 12px;
 	width: 439px;
@@ -460,6 +466,7 @@ p{
 .player-right div{
 	display: inline-block;
 	height: 21px;
+	width: 11px;
 	padding: 3px 11px;
 	border-radius: 14px;
 	margin-left: 4px;
@@ -486,6 +493,19 @@ p{
 }
 #multiply-left{
 	float: left;
+	position: relative;
+	top: 200px;
+	left: -400px;
+	width: 392px;
+	height: 220px;
+	background-image: url(../images/macbook.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 0
+}
+#multiply-left img{
+	width: 298px;
+	margin: 6px 0 0 48px;
 }
 #multiply-right{
 	float: right;
@@ -582,15 +602,18 @@ p{
 	opacity: 1;
 	border-bottom-color: #000; 
 }
-.swiper-wrapper2{
-	height: 165px;
+.swiper-container2{
+	width: 920px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
 }
-.swiper-wrapper2 p{
+.swiper-container2 p{
 	width: 920px;
 	margin: 38px auto 0;
 	font-size: 20px;
 }
-.swiper-wrapper2 .name{
+.swiper-container2 .name{
 	margin-top: 32px;
 	color: #000;
 	font-size: 16px;
